@@ -1,0 +1,12 @@
+type DelTagResponse {
+  ok: Boolean!
+  error: String
+
+}
+
+type Mutation {
+  DelTag(
+      tagKind: String!
+      inputTags: [String!]!
+  ): DelTagResponse!
+}

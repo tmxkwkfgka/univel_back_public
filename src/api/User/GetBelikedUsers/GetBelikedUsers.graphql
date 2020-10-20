@@ -1,0 +1,14 @@
+type UserWithLock {
+  userId: User
+  lock: Boolean 
+}
+
+type GetBelikedUsersResponse {
+  ok: Boolean!
+  error: String
+  usersWithLock: [UserWithLock]
+}
+
+type Query {
+  GetBelikedUsers: GetBelikedUsersResponse!
+}

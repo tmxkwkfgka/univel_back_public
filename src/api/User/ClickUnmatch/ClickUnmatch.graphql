@@ -1,0 +1,13 @@
+type ClickUnmatchResponse {
+  ok: Boolean!
+  error: String
+  remain: Int
+}
+
+type Mutation {
+  ClickUnmatch(
+   yourid: ID!
+   delBelike: Boolean!
+   fromHitch: Boolean
+  ): ClickMatchResponse!
+}

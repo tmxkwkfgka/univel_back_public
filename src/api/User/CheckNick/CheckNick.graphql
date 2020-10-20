@@ -1,0 +1,11 @@
+type CheckNickResponse {
+  ok: Boolean!
+  error: String
+  
+}
+
+type Mutation {
+  CheckNick(
+      nickName: String!
+  ): CheckNickResponse!
+}

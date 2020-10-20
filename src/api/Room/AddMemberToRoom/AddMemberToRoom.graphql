@@ -1,0 +1,17 @@
+type AddMemberToRoomResponse {
+  ok: Boolean!
+  error: String
+  changeActive: Boolean
+
+
+}
+
+
+type Mutation {
+  AddMemberToRoom(
+     
+      inviteRoomId: String!
+      inviteRoomGroup: String!
+   
+  ): AddMemberToRoomResponse!
+}

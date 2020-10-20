@@ -1,0 +1,425 @@
+type SendEmailResponse {
+  ok: Boolean!
+  error: String
+}
+
+type Mutation {
+  SendEmail(from: String!, to: String!, subject: String!, body: String!): SendEmailResponse!
+  AddMemberToRoom(inviteRoomId: String!, inviteRoomGroup: String!): AddMemberToRoomResponse!
+  ExtendRoomReady(roomKey: String!, point: Int!, extendTime: Int!, changeStatus: Boolean!, plusAtNow: Boolean): ExtendRoomReadyResponse!
+  GetUsersFcm(userIds: [String]!): GetUsersFcmResponse!
+  IsAlive: IsAliveResponse!
+  RoomStatusChange(roomKeys: [String]!, currentStatus: RoomStatusOptions!, afterStatus: RoomStatusOptions!): RoomStatusChangeResponse!
+  AddPhotoUrl(key: String!, url: String!, kind: String!): AddPhotoUrlResponse!
+  AddPhotoUrls(photoUrls: [PhotoUrlInput!]!): AddPhotoUrlResponse!
+  AddTag(tagKind: String!, inputTags: [String!]!): AddTagResponse!
+  ChangeTagActive(inputTags: [ChangeActiveTagInput!]!, tagKind: String!): ChangeTagActiveResponse!
+  CheckNick(nickName: String!): CheckNickResponse!
+  ClickMatch(yourid: ID!, fromHitch: Boolean): ClickMatchResponse!
+  ClickUnmatch(yourid: ID!, delBelike: Boolean!, fromHitch: Boolean): ClickMatchResponse!
+  DeleteUser: DeleteUserResponse!
+  DelPhotoUrl(key: String!, url: String!, kind: String!): DelPhotoUrlResponse!
+  DelTag(tagKind: String!, inputTags: [String!]!): DelTagResponse!
+  EditPhotoUrl(previousKey: String!, newKey: String!, newUrl: String!, kind: String!): EditPhotoUrlResponse!
+  EditUser(shortbio: String!): EditUserResponse!
+  GetServerTime: GetServerTimeResponse!
+  IsValidToken: IsValidTokenResponse!
+  RechargePoint(point: Int!): RechargePointResponse!
+  StartPhoneVerification(phoneNumber: String!): StartPhoneVerificationResponse!
+  TestSendFcm(type: String!, title: String!, body: String!, screen: String): TestSendFcmResponse!
+  UnlockProfile(targetId: String!, point: Int!): UnlockProfileResponse!
+  UpdateMyLoc(lat: Float!, lng: Float!, locStr: String): UpdateMyLocResponse!
+  UpdateMyProfile(_id: ID!, lat: Float, lng: Float): UpdateMyProfileResponse!
+  UpdateUser(shortbio: String, school: String, placestr: String, fcmToken: String, myOs: String, settings: SettingsInput, givePoint: GivePointInput, point: Int, currentRoomName: String, isLoggedIn: Boolean): UpdateUserResponse!
+  UserSignIn(phonenumber: String!): UserSignInResponse!
+  UserSignUp(phonenumber: String!, nickname: String!, uid: String!, gender: Boolean!, point: Int!, birthdate: Date): UserSignUpResponse!
+}
+
+type AddMemberToRoomResponse {
+  ok: Boolean!
+  error: String
+  changeActive: Boolean
+}
+
+type ExtendRoomReadyResponse {
+  ok: Boolean!
+  error: String
+  waitingAt: Date
+  currentPoint: Int
+}
+
+type GetUsersFcmResponse {
+  ok: Boolean!
+  error: String
+  fcms: [String]
+  oss: [String]
+  getNewMessageNotiOns: [Boolean]
+  currentRoomNames: [String]
+  threeRemainNotiOns: [Boolean]
+  isLoggedIns: [Boolean]
+}
+
+type IsAliveResponse {
+  ok: Boolean!
+  error: String
+}
+
+type RoomStatusChangeResponse {
+  ok: Boolean!
+  error: String
+}
+
+enum RoomStatusOptions {
+  ready
+  active
+  inactive
+}
+
+type MongoRoom {
+  roomid: String
+  createdAt: String
+  status: String
+  group: String
+}
+
+type AddPhotoUrlResponse {
+  ok: Boolean!
+  error: String
+}
+
+type AddPhotoUrlsResponse {
+  ok: Boolean!
+  error: String
+}
+
+input PhotoUrlInput {
+  key: String!
+  url: String!
+}
+
+type AddTagResponse {
+  ok: Boolean!
+  error: String
+}
+
+type ChangeTagActiveResponse {
+  ok: Boolean!
+  error: String
+}
+
+input ChangeActiveTagInput {
+  tagName: String!
+  active: Boolean!
+}
+
+type CheckNickResponse {
+  ok: Boolean!
+  error: String
+}
+
+type ClickMatchResponse {
+  ok: Boolean!
+  error: String
+  matchIds: [String]
+  nicknames: [String]
+  photos: [String]
+  roomKey: String
+  waitingAt: Date
+  remain: Int
+}
+
+type ClickUnmatchResponse {
+  ok: Boolean!
+  error: String
+  remain: Int
+}
+
+type DeleteUserResponse {
+  ok: Boolean!
+  error: String
+}
+
+type DelPhotoUrlResponse {
+  ok: Boolean!
+  error: String
+}
+
+type DelTagResponse {
+  ok: Boolean!
+  error: String
+}
+
+type EditPhotoUrlResponse {
+  ok: Boolean!
+  error: String
+}
+
+type EditUserResponse {
+  ok: Boolean!
+  error: String
+}
+
+type FindCrewResponse {
+  ok: Boolean!
+  error: String
+  searchedUser: [User]
+  distance: Int
+  remain: Int
+}
+
+type Query {
+  FindCrew(lat: Float!, lng: Float!, inputDistance: Int!): FindCrewResponse!
+  GetBelikedUsers: GetBelikedUsersResponse!
+  GetMyProfile: GetMyProfileResponse!
+  GetProfile(id: String!): GetProfileResponse!
+}
+
+type UserWithLock {
+  userId: User
+  lock: Boolean
+}
+
+type GetBelikedUsersResponse {
+  ok: Boolean!
+  error: String
+  usersWithLock: [UserWithLock]
+}
+
+type GetMyProfileResponse {
+  ok: Boolean!
+  error: String
+  user: User
+}
+
+type GetProfileResponse {
+  ok: Boolean!
+  error: String
+  user: User
+}
+
+type GetServerTimeResponse {
+  ok: Boolean!
+  error: String
+  time: Date
+}
+
+type IsValidTokenResponse {
+  ok: Boolean!
+  error: String
+  user: User
+}
+
+type RechargePointResponse {
+  ok: Boolean!
+  error: String
+  currentPoint: Int
+}
+
+type s3Photo {
+  key: String
+  url: String
+  key: String
+  url: String
+}
+
+type Tag {
+  name: String
+  active: Boolean
+  defaultTag: Boolean
+  name: String
+  active: Boolean
+  defaultTag: Boolean
+}
+
+type Match {
+  _id: ID
+  userid: String
+  createdAt: String
+  _id: ID
+  userid: String
+  createdAt: String
+}
+
+type Loc {
+  type: String
+  coordinates: [Float]
+  type: String
+  coordinates: [Float]
+}
+
+type BeLiked {
+  userId: User
+  lock: Boolean
+  userId: User
+  lock: Boolean
+}
+
+type Settings {
+  getHitchNotiOn: Boolean
+  HitchSuccessNotiOn: Boolean
+  threeRemainNotiOn: Boolean
+  talkRoomCreatedNotiOn: Boolean
+  getNewMessageNotiOn: Boolean
+  eventNotiOn: Boolean
+  getHitchNotiOn: Boolean
+  HitchSuccessNotiOn: Boolean
+  threeRemainNotiOn: Boolean
+  talkRoomCreatedNotiOn: Boolean
+  getNewMessageNotiOn: Boolean
+  eventNotiOn: Boolean
+}
+
+type GivePoint {
+  firstPoint: Boolean
+  myPicturePoint: Boolean
+  crewPicturePoint: Boolean
+  placeStrPoint: Boolean
+  shortbioPoint: Boolean
+  lastWent: String
+  firstPoint: Boolean
+  myPicturePoint: Boolean
+  crewPicturePoint: Boolean
+  placeStrPoint: Boolean
+  shortbioPoint: Boolean
+  lastWent: String
+}
+
+scalar Date
+
+type DeletedUser {
+  _id: ID
+  point: Int
+  profilephoto: [s3Photo]
+  oneWordTags: [Tag]
+  likeTags: [Tag]
+  like: [String]
+  unlike: [String]
+  beliked: [BeLiked]
+  beunliked: [String]
+  groupphoto: [s3Photo]
+  phonenumber: String
+  uid: String
+  gender: Boolean
+  birthdate: Date
+  nickname: String
+  fcmToken: String
+  myOs: String
+  loc: Loc
+  locStr: String
+  currentRoomName: String
+  matches: [Match]
+  school: String
+  shortbio: String
+  placestr: String
+  settings: Settings
+  givePoint: GivePoint
+  createdAt: String
+  updatedAt: String
+}
+
+type User {
+  _id: ID
+  point: Int
+  remain: Int
+  profilephoto: [s3Photo]
+  oneWordTags: [Tag]
+  likeTags: [Tag]
+  like: [String]
+  unlike: [String]
+  beliked: [BeLiked]
+  beunliked: [String]
+  groupphoto: [s3Photo]
+  phonenumber: String
+  uid: String
+  gender: Boolean
+  isLoggedIn: Boolean
+  birthdate: Date
+  nickname: String
+  fcmToken: String
+  myOs: String
+  loc: Loc
+  locStr: String
+  currentRoomName: String
+  matches: [Match]
+  school: String
+  shortbio: String
+  placestr: String
+  settings: Settings
+  givePoint: GivePoint
+  lastClick: String
+  createdAt: String
+  updatedAt: String
+}
+
+type StartPhoneVerificationResponse {
+  ok: Boolean!
+  error: String
+}
+
+type TestSendFcmResponse {
+  ok: Boolean!
+  error: String
+}
+
+type UnlockProfileResponse {
+  ok: Boolean!
+  error: String
+  currentPoint: Int
+}
+
+type UpdateMyLocResponse {
+  ok: Boolean!
+  error: String
+}
+
+type UpdateMyProfileResponse {
+  ok: Boolean!
+  error: String
+}
+
+type UpdateUserResponse {
+  ok: Boolean!
+  error: String
+}
+
+input SettingsInput {
+  getHitchNotiOn: Boolean
+  HitchSuccessNotiOn: Boolean
+  threeRemainNotiOn: Boolean
+  talkRoomCreatedNotiOn: Boolean
+  getNewMessageNotiOn: Boolean
+  eventNotiOn: Boolean
+}
+
+input GivePointInput {
+  firstPoint: Boolean
+  myPicturePoint: Boolean
+  crewPicturePoint: Boolean
+  placeStrPoint: Boolean
+  shortbioPoint: Boolean
+  lastWent: String
+}
+
+type UserSignInResponse {
+  ok: Boolean!
+  error: String
+  token: String
+  user: User
+}
+
+type UserSignUpResponse {
+  ok: Boolean!
+  error: String
+  token: String
+  user: User
+}
+
+type Verification {
+  id: Int!
+  target: String!
+  payload: String!
+  key: String!
+  verified: Boolean!
+  createdAt: String!
+  updatedAt: String
+}

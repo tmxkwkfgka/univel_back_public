@@ -1,0 +1,10 @@
+type GetServerTimeResponse {
+  ok: Boolean!
+  error: String
+  time: Date
+
+}
+
+type Mutation {
+  GetServerTime: GetServerTimeResponse!
+}

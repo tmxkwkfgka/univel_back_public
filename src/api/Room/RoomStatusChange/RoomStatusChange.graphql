@@ -1,0 +1,19 @@
+type RoomStatusChangeResponse {
+  ok: Boolean!
+  error: String,
+  
+}
+
+enum RoomStatusOptions {
+  ready
+  active
+  inactive
+}
+
+type Mutation {
+  RoomStatusChange(
+      roomKeys: [String]!
+      currentStatus: RoomStatusOptions!
+      afterStatus: RoomStatusOptions!
+  ): RoomStatusChangeResponse!
+}

@@ -1,0 +1,8 @@
+type MongoRoom {
+
+    roomid: String
+    createdAt: String
+    status: String
+    group: String
+
+}

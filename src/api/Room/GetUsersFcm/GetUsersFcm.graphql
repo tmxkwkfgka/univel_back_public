@@ -1,0 +1,18 @@
+type GetUsersFcmResponse {
+  ok: Boolean!
+  error: String
+  fcms: [String]
+  oss: [String]
+  getNewMessageNotiOns: [Boolean]
+  currentRoomNames: [String]
+  threeRemainNotiOns: [Boolean]
+  isLoggedIns: [Boolean]
+
+
+}
+
+type Mutation {
+  GetUsersFcm(
+      userIds: [String]!
+  ): GetUsersFcmResponse!
+}

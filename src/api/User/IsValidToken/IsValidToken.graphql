@@ -1,0 +1,10 @@
+type IsValidTokenResponse {
+  ok: Boolean!
+  error: String
+  user: User
+
+}
+
+type Mutation {
+  IsValidToken: IsValidTokenResponse!
+}

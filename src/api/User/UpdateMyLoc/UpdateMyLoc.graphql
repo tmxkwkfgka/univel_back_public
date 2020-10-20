@@ -1,0 +1,13 @@
+type UpdateMyLocResponse {
+  ok: Boolean!
+  error: String
+}
+
+type Mutation {
+  UpdateMyLoc(
+  
+   lat: Float!
+   lng: Float!
+   locStr: String
+  ): UpdateMyLocResponse!
+}

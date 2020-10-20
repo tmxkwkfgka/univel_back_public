@@ -1,0 +1,18 @@
+type FindCrewResponse {
+  ok: Boolean!
+  error: String
+  searchedUser: [User],
+  distance: Int
+  remain: Int
+  
+}
+
+type Query {
+  FindCrew(
+      
+      lat: Float!
+      lng: Float!
+      inputDistance: Int!
+     
+  ): FindCrewResponse!
+}

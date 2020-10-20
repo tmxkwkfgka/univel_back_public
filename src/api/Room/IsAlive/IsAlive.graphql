@@ -1,0 +1,10 @@
+type IsAliveResponse {
+  ok: Boolean!
+  error: String,
+  
+}
+
+
+type Mutation {
+  IsAlive: IsAliveResponse!
+}

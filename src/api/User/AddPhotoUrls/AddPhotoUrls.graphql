@@ -1,0 +1,16 @@
+type AddPhotoUrlsResponse {
+  ok: Boolean!
+  error: String,
+  
+}
+
+input PhotoUrlInput {
+  key: String!
+  url: String!
+}
+
+type Mutation {
+  AddPhotoUrls(
+    photoUrls: [PhotoUrlInput!]!
+  ): AddPhotoUrlResponse!
+}

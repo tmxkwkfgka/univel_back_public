@@ -1,0 +1,12 @@
+type UpdateMyProfileResponse {
+  ok: Boolean!
+  error: String
+}
+
+type Mutation {
+  UpdateMyProfile(
+   _id: ID!
+   lat: Float
+   lng: Float
+  ): UpdateMyProfileResponse!
+}

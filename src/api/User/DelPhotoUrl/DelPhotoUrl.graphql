@@ -1,0 +1,13 @@
+type DelPhotoUrlResponse {
+  ok: Boolean!
+  error: String,
+  
+}
+
+type Mutation {
+  DelPhotoUrl(
+   key: String!
+   url: String!
+   kind: String!
+  ): DelPhotoUrlResponse!
+}

@@ -1,0 +1,17 @@
+type ChangeTagActiveResponse {
+  ok: Boolean!
+  error: String
+
+}
+
+input ChangeActiveTagInput {
+  tagName: String!
+  active: Boolean!
+}
+
+type Mutation {
+  ChangeTagActive(
+     inputTags: [ChangeActiveTagInput!]!
+     tagKind: String!
+  ): ChangeTagActiveResponse!
+}

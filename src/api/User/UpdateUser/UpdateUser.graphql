@@ -1,0 +1,38 @@
+type UpdateUserResponse {
+  ok: Boolean!
+  error: String
+
+}
+
+input SettingsInput {
+  getHitchNotiOn: Boolean
+  HitchSuccessNotiOn: Boolean
+  threeRemainNotiOn: Boolean
+  talkRoomCreatedNotiOn: Boolean
+  getNewMessageNotiOn: Boolean
+  eventNotiOn: Boolean
+}
+input GivePointInput {
+  firstPoint: Boolean
+  myPicturePoint: Boolean
+  crewPicturePoint: Boolean
+  placeStrPoint: Boolean
+  shortbioPoint: Boolean
+  lastWent: String
+}
+
+
+type Mutation {
+  UpdateUser(
+      shortbio: String
+      school: String
+      placestr: String
+      fcmToken: String
+      myOs: String
+      settings: SettingsInput
+      givePoint: GivePointInput
+      point: Int
+      currentRoomName: String
+      isLoggedIn: Boolean
+  ): UpdateUserResponse!
+}

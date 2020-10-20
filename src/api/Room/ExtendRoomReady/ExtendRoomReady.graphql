@@ -1,0 +1,17 @@
+type ExtendRoomReadyResponse {
+  ok: Boolean!
+  error: String,
+  waitingAt: Date,
+  currentPoint: Int
+
+}
+
+type Mutation {
+  ExtendRoomReady(
+      roomKey: String!
+      point: Int!
+      extendTime: Int!
+      changeStatus: Boolean!
+      plusAtNow: Boolean
+  ): ExtendRoomReadyResponse!
+}

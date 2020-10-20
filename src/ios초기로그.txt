@@ -1,0 +1,935 @@
+2020-02-12 14:42:10.524171+0900 univel[9539:2395392] - <AppMeasurement>[I-ACS036002] Analytics screen reporting is enabled. Call +[FIRAnalytics setScreenName:setScreenClass:] to set the screen name or override the default screen class name. To disable screen reporting, set the flag FirebaseScreenReportingEnabled to NO (boolean) in the Info.plist
+2020-02-12 14:42:12.248 [info][tid:main][RCTRootView.m:293] Running application univel ({
+  initialProps =   {
+  };
+  rootTag = 1;
+})
+2020-02-12 14:42:12.311101+0900 univel[9539:2395397] 6.13.0 - [Firebase/Analytics][I-ACS023007] Analytics v.60106000 started
+2020-02-12 14:42:12.311635+0900 univel[9539:2395397] 6.13.0 - [Firebase/Analytics][I-ACS023008] To enable debug logging set the following application argument: -FIRAnalyticsDebugEnabled (see http://goo.gl/RfcP7r)
+2020-02-12 14:42:12.444569+0900 univel[9539:2395394] 6.13.0 - [Firebase/Messaging][I-FCM001000] FIRMessaging Remote Notifications proxy enabled, will swizzle remote notification receiver handlers. If you'd prefer to manually integrate Firebase Messaging, add "FirebaseAppDelegateProxyEnabled" to your Info.plist, and set it to NO. Follow the instructions at:
+https://firebase.google.com/docs/cloud-messaging/ios/client#method_swizzling_in_firebase_messaging
+to ensure proper integration.
+2020-02-12 14:42:12.460162+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.460535+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.460633+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.462313+0900 univel[9539:2395437] [] nw_socket_handle_socket_event [C3.1:1] Socket SO_ERROR [61: Connection refused]
+2020-02-12 14:42:12.462849+0900 univel[9539:2395437] [] nw_socket_handle_socket_event [C3.2:1] Socket SO_ERROR [61: Connection refused]
+2020-02-12 14:42:12.463040+0900 univel[9539:2395437] [] nw_connection_get_connected_socket [C3] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2020-02-12 14:42:12.463186+0900 univel[9539:2395437] TCP Conn 0x283770840 Failed : error 0:61 [61]
+2020-02-12 14:42:12.463704+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.469878+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.569058+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.569150+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.575902+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.593104+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.593191+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.593918+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.593981+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.601217+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:12.662294+0900 univel[9539:2395394] Connection 5: received failure notification
+2020-02-12 14:42:12.662356+0900 univel[9539:2395394] Connection 5: failed to connect 12:8, reason -1
+2020-02-12 14:42:12.662374+0900 univel[9539:2395394] Connection 5: encountered error(12:8)
+2020-02-12 14:42:12.663788+0900 univel[9539:2395394] Task <B32D6675-7712-4A81-95D2-F19DC2D306F6>.<3> HTTP load failed, 0/0 bytes (error code: -1003 [12:8])
+2020-02-12 14:42:12.666117+0900 univel[9539:2395392] Task <B32D6675-7712-4A81-95D2-F19DC2D306F6>.<3> finished with error [-1003] Error Domain=NSURLErrorDomain Code=-1003 "특정 호스트 이름을 가진
+서버를 찾을 수 없습니다." UserInfo={NSUnderlyingError=0x280cc87b0 {Error Domain=kCFErrorDomainCFNetwork Code=-1003 "(null)" UserInfo={_kCFStreamErrorCodeKey=8, _kCFStreamErrorDomainKey=12}}, NSErrorFailingURLStringKey=https://firebasedynamiclinks-ipv6.googleapis.com/v1/installAttribution?key=AIzaSyAT1Dq9loTi5-mgEFj__odWYlh0TyTH_Dg, NSErrorFailingURLKey=https://firebasedynamiclinks-ipv6.googleapis.com/v1/installAttribution?key=AIzaSyAT1Dq9loTi5-mgEFj__odWYlh0TyTH_Dg, _kCFStreamErrorDomainKey=12, _kCFStreamErrorCodeKey=8, NSLocalizedDescription=특정 호스트 이름을 가진
+서버를 찾을 수 없습니다.}
+
+2020-02-12 14:42:23.140403+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:23.140649+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:23.154521+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:23.154640+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:42:35.271016+0900 univel[9539:2395397] XPC connection interrupted
+
+
+
+
+
+2020-02-12 14:43:10.349958+0900 univel[9539:2395672] [] nw_socket_handle_socket_event [C10:1] Socket SO_ERROR [61: Connection refused]
+2020-02-12 14:43:10.350265+0900 univel[9539:2395397] [] nw_connection_get_connected_socket [C10] Client called nw_connection_get_connected_socket on unconnected nw_connection
+2020-02-12 14:43:10.350420+0900 univel[9539:2395397] TCP Conn 0x283770180 Failed : error 0:61 [61]
+2020-02-12 14:43:10.673 [info][tid:com.facebook.react.JavaScript] Running "univel" with {"rootTag":1,"initialProps":{}}
+2020-02-12 14:43:10.741 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:10.809 [info][tid:com.facebook.react.JavaScript] 라우터 유즈에펙트 처음
+2020-02-12 14:43:10.810 [info][tid:com.facebook.react.JavaScript] 라우터 유즈에펙트 처음
+2020-02-12 14:43:10.819 [info][tid:com.facebook.react.JavaScript] 라우터 글로벌데이터 change 
+2020-02-12 14:43:10.873 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:10.896 [info][tid:com.facebook.react.JavaScript] 'TOKEN:', { token: 'e54d4f2a01c7d6cd15cce7b3a1228d09bbb6ee8d640901022abb5a40cf561b29',
+ os: 'ios' }
+2020-02-12 14:43:10.902 [info][tid:com.facebook.react.JavaScript] '@user auth token = ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNDIxMmUzYjkyZWNkNmUzYzQwZWVjMCIsImlhdCI6MTU4MTQ4MTIwNn0.z0rxISSwMWETEZnV7_89wnAOJlaBeILqqMl1tfEVihk'
+2020-02-12 14:43:10.909 [info][tid:com.facebook.react.JavaScript] '@user auth token = ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNDIxMmUzYjkyZWNkNmUzYzQwZWVjMCIsImlhdCI6MTU4MTQ4MTIwNn0.z0rxISSwMWETEZnV7_89wnAOJlaBeILqqMl1tfEVihk'
+2020-02-12 14:43:10.945372+0900 univel[9539:2395397] GET method must not have a body
+2020-02-12 14:43:10.946506+0900 univel[9539:2395672] Task <07A17DDF-2E5A-42AC-9B1A-CC1B1F7D6340>.<1> finished with error [-1103] Error Domain=NSURLErrorDomain Code=-1103 "리소스가 최대 크기를 초과함" UserInfo={NSLocalizedDescription=리소스가 최대 크기를 초과함, NSErrorFailingURLStringKey=http://15.165.182.151:4000/graphql/%5Bobject%20Object%5D, NSErrorFailingURLKey=http://15.165.182.151:4000/graphql/[object%20Object], _NSURLErrorRelatedURLSessionTaskErrorKey=(
+  "LocalDataTask <07A17DDF-2E5A-42AC-9B1A-CC1B1F7D6340>.<1>"
+), _NSURLErrorFailingURLSessionTaskErrorKey=LocalDataTask <07A17DDF-2E5A-42AC-9B1A-CC1B1F7D6340>.<1>, NSUnderlyingError=0x280cda430 {Error Domain=kCFErrorDomainCFNetwork Code=-1103 "(null)"}}
+2020-02-12 14:43:10.950 [info][tid:main][RNGestureHandlerManager.m:136] [GESTURE HANDLER] Initialize gesture handler for root view <RCTRootContentView: 0x10980feb0; reactTag: 1; frame = (0 0; 375 812); gestureRecognizers = <NSArray: 0x280c335a0>; layer = <CALayer: 0x280271920>>
+2020-02-12 14:43:11.058 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.078 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.084 [info][tid:com.facebook.react.JavaScript] 'after is valid token = ', { IsValidToken: 
+  { ok: true,
+   error: null,
+   user: 
+   { _id: '5e4212e3b92ecd6e3c40eec0',
+    point: 20,
+    myOs: 'ios',
+    profilephoto: 
+     [ { key: 'photo/IMG_1196.PNG',
+       url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1196.PNG',
+       __typename: 's3Photo' } ],
+    groupphoto: 
+     [ { key: 'photo/IMG_1201.PNG',
+       url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1201.PNG',
+       __typename: 's3Photo' },
+      { key: 'photo/IMG_1199.PNG',
+       url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1199.PNG',
+       __typename: 's3Photo' } ],
+    loc: 
+     { type: 'Point',
+      coordinates: [ 126.94973963563429, 37.54636144969278 ],
+      __typename: 'Loc' },
+    phonenumber: '01010171017',
+    uid: 'NFAEQeNGrFMfNeqFKFA8jDfUk9E3',
+    placestr: null,
+    shortbio: null,
+    birthdate: '1995-06-01T00:00:00.000Z',
+    nickname: '하니',
+    school: '서울대학교 ・ 실용창작과',
+    oneWordTags: 
+     [ { name: '모두 싱글', active: false, __typename: 'Tag' },
+      { name: '재밌어요', active: false, __typename: 'Tag' },
+      { name: '활발해요', active: false, __typename: 'Tag' },
+      { name: '대화를 잘해요', active: false, __typename: 'Tag' },
+      { name: '이야기를 잘 들어줘요', active: false, __typename: 'Tag' },
+      { name: '솔직해요', active: false, __typename: 'Tag' },
+      { name: '예뻐요', active: false, __typename: 'Tag' },
+      { name: '잘 생겼어요', active: false, __typename: 'Tag' },
+      { name: '피부가 좋아요', active: false, __typename: 'Tag' },
+      { name: '웃음이 많아요', active: false, __typename: 'Tag' },
+      { name: '매너가 좋아요', active: false, __typename: 'Tag' },
+      { name: '담배 안펴요', active: false, __typename: 'Tag' },
+      { name: '술 안마셔요', active: false, __typename: 'Tag' },
+      { name: '패션센스', active: false, __typename: 'Tag' },
+      { name: '고기를 잘 구워요', active: false, __typename: 'Tag' } ],
+    likeTags: 
+     [ { name: '운동', active: false, __typename: 'Tag' },
+      { name: '노래 부르기', active: false, __typename: 'Tag' },
+      { name: '악기 연주', active: false, __typename: 'Tag' },
+      { name: '다같이 게임하기', active: false, __typename: 'Tag' },
+      { name: '감성 카페 찾기', active: false, __typename: 'Tag' },
+      { name: '카페에서 수다', active: false, __typename: 'Tag' },
+      { name: '쇼핑', active: false, __typename: 'Tag' },
+      { name: '영화 보기', active: false, __typename: 'Tag' },
+      { name: '드라마 보기', active: false, __typename: 'Tag' },
+      { name: '웹툰 보기', active: false, __typename: 'Tag' },
+      { name: '파티하기', active: false, __typename: 'Tag' },
+      { name: '드라이브', active: false, __typename: 'Tag' },
+      { name: '덕질', active: false, __typename: 'Tag' },
+      { name: '인스타 맛집탐방', active: false, __typename: 'Tag' },
+      { name: '독서', active: false, __typename: 'Tag' },
+      { name: '반려동물', active: false, __typename: 'Tag' },
+      { name: '공연관람', active: false, __typename: 'Tag' },
+      { name: '여행', active: false, __typename: 'Tag' },
+      { name: '한강에서 치맥', active: false, __typename: 'Tag' } ],
+    settings: 
+     { getHitchNotiOn: true,
+      HitchSuccessNotiOn: true,
+      threeRemainNotiOn: true,
+      talkRoomCreatedNotiOn: true,
+      getNewMessageNotiOn: true,
+      eventNotiOn: true,
+      __typename: 'Settings' },
+    givePoint: 
+     { firstPoint: true,
+      myPicturePoint: false,
+      crewPicturePoint: false,
+      placeStrPoint: false,
+      lastWent: '1581471343022',
+      shortbioPoint: false,
+      __typename: 'GivePoint' },
+    __typename: 'User' },
+   __typename: 'IsValidTokenResponse' } }
+2020-02-12 14:43:11.084 [info][tid:com.facebook.react.JavaScript] 
+2020-02-12 14:43:11.091 [info][tid:com.facebook.react.JavaScript] 'enalbel=', true
+2020-02-12 14:43:11.113 [warn][tid:com.facebook.react.JavaScript] 'vari = ', { fcmToken: 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG',
+ myOs: 'ios' }
+2020-02-12 14:43:11.118 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.169 [info][tid:com.facebook.react.JavaScript] '@user auth token = ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNDIxMmUzYjkyZWNkNmUzYzQwZWVjMCIsImlhdCI6MTU4MTQ4MTIwNn0.z0rxISSwMWETEZnV7_89wnAOJlaBeILqqMl1tfEVihk'
+2020-02-12 14:43:11.440850+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.441049+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.441128+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.442069+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.442183+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.445447+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.445702+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.445787+0900 univel[9539:2395222] [Process] kill() returned unexpected error 1
+2020-02-12 14:43:11.452 [info][tid:com.facebook.react.JavaScript] 'TOKEN:', { token: 'e54d4f2a01c7d6cd15cce7b3a1228d09bbb6ee8d640901022abb5a40cf561b29',
+ os: 'ios' }
+2020-02-12 14:43:11.461206+0900 univel[9539:2395397] GET method must not have a body
+2020-02-12 14:43:11.461826+0900 univel[9539:2395418] Task <693FD785-1695-477D-B9C3-3B41EE970504>.<6> finished with error [-1103] Error Domain=NSURLErrorDomain Code=-1103 "리소스가 최대 크기를 초과함" UserInfo={NSLocalizedDescription=리소스가 최대 크기를 초과함, NSErrorFailingURLStringKey=http://15.165.182.151:4000/graphql/%5Bobject%20Object%5D, NSErrorFailingURLKey=http://15.165.182.151:4000/graphql/[object%20Object], _NSURLErrorRelatedURLSessionTaskErrorKey=(
+  "LocalDataTask <693FD785-1695-477D-B9C3-3B41EE970504>.<6>"
+), _NSURLErrorFailingURLSessionTaskErrorKey=LocalDataTask <693FD785-1695-477D-B9C3-3B41EE970504>.<6>, NSUnderlyingError=0x280c80360 {Error Domain=kCFErrorDomainCFNetwork Code=-1103 "(null)"}}
+2020-02-12 14:43:11.585423+0900 univel[9539:2395222] [ProcessSuspension] 0x1104e5410 - ProcessAssertion::processAssertionWasInvalidated()
+2020-02-12 14:43:11.585742+0900 univel[9539:2395222] [ProcessSuspension] 0x1104e53b0 - ProcessAssertion::processAssertionWasInvalidated()
+2020-02-12 14:43:11.590 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.597 [info][tid:com.facebook.react.JavaScript] 'update fcmtoken success', 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG', '\n', { isLogged: null,
+ main: 'find',
+ messageList: false,
+ userData: {},
+ location: '',
+ inviteRoomId: null,
+ inviteRoomGroup: null,
+ inviteSet: false,
+ fcmToken: null,
+ crews: [],
+ settings: null }
+2020-02-12 14:43:11.600 [warn][tid:com.facebook.react.JavaScript] 'user 정보 있음 셋글로벌 이전', 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG'
+2020-02-12 14:43:11.603 [warn][tid:com.facebook.react.JavaScript] my location
+2020-02-12 14:43:11.614462+0900 univel[9539:2395222] [react-native-permissions] ios.permission.LOCATION_ALWAYS permission checked: granted
+2020-02-12 14:43:11.625 [info][tid:com.facebook.react.JavaScript] getGeocode start!!
+2020-02-12 14:43:11.630 [info][tid:com.facebook.react.JavaScript] 'df set success ! ', null
+2020-02-12 14:43:11.631226+0900 univel[9539:2395222] Using univel_preference suite for userDefaults
+2020-02-12 14:43:11.643 [info][tid:com.facebook.react.JavaScript] 'default preference set ok ', 'univel_getNewMessageNotiOn ', 'true'
+2020-02-12 14:43:11.747 [info][tid:com.facebook.react.JavaScript] 'geoCoderResponse = ', { req: 
+  { _query: [],
+   method: 'GET',
+   url: 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x=126.94961070458912&y=37.546380889235905',
+   header: { Authorization: 'KakaoAK ac1ac3759e82633f2bd1fcf7f3a79cc1' },
+   _header: { authorization: 'KakaoAK ac1ac3759e82633f2bd1fcf7f3a79cc1' },
+   _callbacks: { '$end': [ [Function] ], '$abort': [ [Function] ] },
+   _endCalled: true,
+   _callback: [Function],
+   xhr: 
+   { UNSENT: 0,
+    OPENED: 1,
+    HEADERS_RECEIVED: 2,
+    LOADING: 3,
+    DONE: 4,
+    readyState: 4,
+    status: 200,
+    timeout: 0,
+    withCredentials: true,
+    upload: {},
+    _aborted: false,
+    _hasError: false,
+    _method: 'GET',
+    _response: '{"meta":{"total_count":1},"documents":[{"road_address":null,"address":{"address_name":"서울 마포구 공덕동 370-4","region_1depth_name":"서울","region_2depth_name":"마포구","region_3depth_name":"공덕동","mountain_yn":"N","main_address_no":"370","sub_address_no":"4","zip_code":""}}]}',
+    _url: 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x=126.94961070458912&y=37.546380889235905',
+    _timedOut: false,
+    _trackingName: 'unknown',
+    _incrementalEvents: false,
+    responseHeaders: 
+     { 'x-apm-inst-hash': '897570861',
+      Server: 'nginx',
+      'Access-Control-Allow-Origin': '*',
+      'Content-Language': 'ko-KR',
+      'Transfer-Encoding': 'Identity',
+      'Content-Type': 'application/json;charset=UTF-8',
+      'x-apm-svc-key': '8fcc4810-23af-434f-852f-5e2dfe3329db',
+      'Content-Encoding': 'gzip',
+      'x-apm-app-name': 'real',
+      'Access-Control-Allow-Methods': 'GET, OPTIONS',
+      Date: 'Wed, 12 Feb 2020 05:43:11 GMT',
+      'X-Request-Id': '8e3efef0-4d5a-11ea-be52-09efce40a942',
+      'Access-Control-Allow-Headers': 'Authorization, KA, Origin, X-Requested-With, Content-Type, Accept',
+      Connection: 'keep-alive' },
+    _requestId: null,
+    _cachedResponse: undefined,
+    _headers: { authorization: [Getter/Setter] },
+    _responseType: '',
+    _sent: true,
+    _lowerCaseResponseHeaders: 
+     { 'x-apm-inst-hash': '897570861',
+      server: 'nginx',
+      'access-control-allow-origin': '*',
+      'content-language': 'ko-KR',
+      'transfer-encoding': 'Identity',
+      'content-type': 'application/json;charset=UTF-8',
+      'x-apm-svc-key': '8fcc4810-23af-434f-852f-5e2dfe3329db',
+      'content-encoding': 'gzip',
+      'x-apm-app-name': 'real',
+      'access-control-allow-methods': 'GET, OPTIONS',
+      date: 'Wed, 12 Feb 2020 05:43:11 GMT',
+      'x-request-id': '8e3efef0-4d5a-11ea-be52-09efce40a942',
+      'access-control-allow-headers': 'Authorization, KA, Origin, X-Requested-With, Content-Type, Accept',
+      connection: 'keep-alive' },
+    _subscriptions: [],
+    responseURL: 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x=126.94961070458912&y=37.546380889235905' },
+   _fullfilledPromise: { _40: 1, _65: 1, _55: [Circular], _72: null } },
+ xhr: 
+  { UNSENT: 0,
+   OPENED: 1,
+   HEADERS_RECEIVED: 2,
+   LOADING: 3,
+   DONE: 4,
+   readyState: 4,
+   status: 200,
+   timeout: 0,
+   withCredentials: true,
+   upload: {},
+   _aborted: false,
+   _hasError: false,
+   _method: 'GET',
+   _response: '{"meta":{"total_count":1},"documents":[{"road_address":null,"address":{"address_name":"서울 마포구 공덕동 370-4","region_1depth_name":"서울","region_2depth_name":"마포구","region_3depth_name":"공덕동","mountain_yn":"N","main_address_no":"370","sub_address_no":"4","zip_code":""}}]}',
+   _url: 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x=126.94961070458912&y=37.546380889235905',
+   _timedOut: false,
+   _trackingName: 'unknown',
+   _incrementalEvents: false,
+   responseHeaders: 
+   { 'x-apm-inst-hash': '897570861',
+    Server: 'nginx',
+    'Access-Control-Allow-Origin': '*',
+    'Content-Language': 'ko-KR',
+    'Transfer-Encoding': 'Identity',
+    'Content-Type': 'application/json;charset=UTF-8',
+    'x-apm-svc-key': '8fcc4810-23af-434f-852f-5e2dfe3329db',
+    'Content-Encoding': 'gzip',
+    'x-apm-app-name': 'real',
+    'Access-Control-Allow-Methods': 'GET, OPTIONS',
+    Date: 'Wed, 12 Feb 2020 05:43:11 GMT',
+    'X-Request-Id': '8e3efef0-4d5a-11ea-be52-09efce40a942',
+    'Access-Control-Allow-Headers': 'Authorization, KA, Origin, X-Requested-With, Content-Type, Accept',
+    Connection: 'keep-alive' },
+   _requestId: null,
+   _cachedResponse: undefined,
+   _headers: { authorization: [Getter/Setter] },
+   _responseType: '',
+   _sent: true,
+   _lowerCaseResponseHeaders: 
+   { 'x-apm-inst-hash': '897570861',
+    server: 'nginx',
+    'access-control-allow-origin': '*',
+    'content-language': 'ko-KR',
+    'transfer-encoding': 'Identity',
+    'content-type': 'application/json;charset=UTF-8',
+    'x-apm-svc-key': '8fcc4810-23af-434f-852f-5e2dfe3329db',
+    'content-encoding': 'gzip',
+    'x-apm-app-name': 'real',
+    'access-control-allow-methods': 'GET, OPTIONS',
+    date: 'Wed, 12 Feb 2020 05:43:11 GMT',
+    'x-request-id': '8e3efef0-4d5a-11ea-be52-09efce40a942',
+    'access-control-allow-headers': 'Authorization, KA, Origin, X-Requested-With, Content-Type, Accept',
+    connection: 'keep-alive' },
+   _subscriptions: [],
+   responseURL: 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x=126.94961070458912&y=37.546380889235905' },
+ text: '{"meta":{"total_count":1},"documents":[{"road_address":null,"address":{"address_name":"서울 마포구 공덕동 370-4","region_1depth_name":"서울","region_2depth_name":"마포구","region_3depth_name":"공덕동","mountain_yn":"N","main_address_no":"370","sub_address_no":"4","zip_code":""}}]}',
+ statusText: undefined,
+ statusCode: 200,
+ status: 200,
+ statusType: 2,
+ info: false,
+ ok: true,
+ redirect: false,
+ clientError: false,
+ serverError: false,
+ error: false,
+ created: false,
+ accepted: false,
+ noContent: false,
+ badRequest: false,
+ unauthorized: false,
+ notAcceptable: false,
+ forbidden: false,
+ notFound: false,
+ unprocessableEntity: false,
+ headers: 
+  { 'x-apm-inst-hash': '897570861',
+   server: 'nginx',
+   'access-control-allow-origin': '*',
+   'content-language': 'ko-KR',
+   'transfer-encoding': 'Identity',
+   'content-type': 'application/json;charset=UTF-8',
+   'x-apm-svc-key': '8fcc4810-23af-434f-852f-5e2dfe3329db',
+   'content-encoding': 'gzip',
+   'x-apm-app-name': 'real',
+   'access-control-allow-methods': 'GET, OPTIONS',
+   date: 'Wed, 12 Feb 2020 05:43:11 GMT',
+   'x-request-id': '8e3efef0-4d5a-11ea-be52-09efce40a942',
+   'access-control-allow-headers': 'Authorization, KA, Origin, X-Requested-With, Content-Type, Accept',
+   connection: 'keep-alive' },
+ header: 
+  { 'x-apm-inst-hash': '897570861',
+   server: 'nginx',
+   'access-control-allow-origin': '*',
+   'content-language': 'ko-KR',
+   'transfer-encoding': 'Identity',
+   'content-type': 'application/json;charset=UTF-8',
+   'x-apm-svc-key': '8fcc4810-23af-434f-852f-5e2dfe3329db',
+   'content-encoding': 'gzip',
+   'x-apm-app-name': 'real',
+   'access-control-allow-methods': 'GET, OPTIONS',
+   date: 'Wed, 12 Feb 2020 05:43:11 GMT',
+   'x-request-id': '8e3efef0-4d5a-11ea-be52-09efce40a942',
+   'access-control-allow-headers': 'Authorization, KA, Origin, X-Requested-With, Content-Type, Accept',
+   connection: 'keep-alive' },
+ type: 'application/json',
+ charset: 'UTF-8',
+ links: {},
+ body: 
+  { meta: { total_count: 1 },
+   documents: 
+   [ { road_address: null,
+     address: 
+      { address_name: '서울 마포구 공덕동 370-4',
+       region_1depth_name: '서울',
+       region_2depth_name: '마포구',
+       region_3depth_name: '공덕동',
+       mountain_yn: 'N',
+       main_address_no: '370',
+       sub_address_no: '4',
+       zip_code: '' } } ] } }
+2020-02-12 14:43:11.750 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.757 [info][tid:com.facebook.react.JavaScript] '@user auth token = ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNDIxMmUzYjkyZWNkNmUzYzQwZWVjMCIsImlhdCI6MTU4MTQ4MTIwNn0.z0rxISSwMWETEZnV7_89wnAOJlaBeILqqMl1tfEVihk'
+2020-02-12 14:43:11.793 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.797 [info][tid:com.facebook.react.JavaScript] update loc success 
+2020-02-12 14:43:11.801 [warn][tid:com.facebook.react.JavaScript] 'loc 정보 = ', '서울 마포구'
+2020-02-12 14:43:11.804 [info][tid:com.facebook.react.JavaScript] router 그리기이전 
+2020-02-12 14:43:11.810 [info][tid:com.facebook.react.JavaScript] crew start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2020-02-12 14:43:11.811 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:11.811 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', false, false, undefined, false
+2020-02-12 14:43:11.822 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:11.822 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', true, true, undefined, false
+2020-02-12 14:43:11.822 [info][tid:com.facebook.react.JavaScript] 'called loading, data = ', true, true, undefined
+2020-02-12 14:43:11.823 [info][tid:com.facebook.react.JavaScript] 'in called and loading', true, true
+2020-02-12 14:43:11.902 [info][tid:com.facebook.react.JavaScript] 'in profile check global data = ', { main: 'find',
+ messageList: false,
+ location: '',
+ inviteRoomId: null,
+ inviteRoomGroup: null,
+ inviteSet: false,
+ crews: [],
+ settings: null,
+ userData: 
+  { _id: '5e4212e3b92ecd6e3c40eec0',
+   point: 20,
+   myOs: 'ios',
+   profilephoto: 
+   [ { key: 'photo/IMG_1196.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1196.PNG',
+     __typename: 's3Photo' } ],
+   groupphoto: 
+   [ { key: 'photo/IMG_1201.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1201.PNG',
+     __typename: 's3Photo' },
+    { key: 'photo/IMG_1199.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1199.PNG',
+     __typename: 's3Photo' } ],
+   loc: 
+   { type: 'Point',
+    coordinates: [ 126.94973963563429, 37.54636144969278 ],
+    __typename: 'Loc' },
+   phonenumber: '01010171017',
+   uid: 'NFAEQeNGrFMfNeqFKFA8jDfUk9E3',
+   placestr: null,
+   shortbio: null,
+   birthdate: '1995-06-01T00:00:00.000Z',
+   nickname: '하니',
+   school: '서울대학교 ・ 실용창작과',
+   oneWordTags: 
+   [ { name: '모두 싱글', active: false, __typename: 'Tag' },
+    { name: '재밌어요', active: false, __typename: 'Tag' },
+    { name: '활발해요', active: false, __typename: 'Tag' },
+    { name: '대화를 잘해요', active: false, __typename: 'Tag' },
+    { name: '이야기를 잘 들어줘요', active: false, __typename: 'Tag' },
+    { name: '솔직해요', active: false, __typename: 'Tag' },
+    { name: '예뻐요', active: false, __typename: 'Tag' },
+    { name: '잘 생겼어요', active: false, __typename: 'Tag' },
+    { name: '피부가 좋아요', active: false, __typename: 'Tag' },
+    { name: '웃음이 많아요', active: false, __typename: 'Tag' },
+    { name: '매너가 좋아요', active: false, __typename: 'Tag' },
+    { name: '담배 안펴요', active: false, __typename: 'Tag' },
+    { name: '술 안마셔요', active: false, __typename: 'Tag' },
+    { name: '패션센스', active: false, __typename: 'Tag' },
+    { name: '고기를 잘 구워요', active: false, __typename: 'Tag' } ],
+   likeTags: 
+   [ { name: '운동', active: false, __typename: 'Tag' },
+    { name: '노래 부르기', active: false, __typename: 'Tag' },
+    { name: '악기 연주', active: false, __typename: 'Tag' },
+    { name: '다같이 게임하기', active: false, __typename: 'Tag' },
+    { name: '감성 카페 찾기', active: false, __typename: 'Tag' },
+    { name: '카페에서 수다', active: false, __typename: 'Tag' },
+    { name: '쇼핑', active: false, __typename: 'Tag' },
+    { name: '영화 보기', active: false, __typename: 'Tag' },
+    { name: '드라마 보기', active: false, __typename: 'Tag' },
+    { name: '웹툰 보기', active: false, __typename: 'Tag' },
+    { name: '파티하기', active: false, __typename: 'Tag' },
+    { name: '드라이브', active: false, __typename: 'Tag' },
+    { name: '덕질', active: false, __typename: 'Tag' },
+    { name: '인스타 맛집탐방', active: false, __typename: 'Tag' },
+    { name: '독서', active: false, __typename: 'Tag' },
+    { name: '반려동물', active: false, __typename: 'Tag' },
+    { name: '공연관람', active: false, __typename: 'Tag' },
+    { name: '여행', active: false, __typename: 'Tag' },
+    { name: '한강에서 치맥', active: false, __typename: 'Tag' } ],
+   settings: 
+   { getHitchNotiOn: true,
+    HitchSuccessNotiOn: true,
+    threeRemainNotiOn: true,
+    talkRoomCreatedNotiOn: true,
+    getNewMessageNotiOn: true,
+    eventNotiOn: true,
+    __typename: 'Settings' },
+   givePoint: 
+   { firstPoint: true,
+    myPicturePoint: false,
+    crewPicturePoint: false,
+    placeStrPoint: false,
+    lastWent: '1581471343022',
+    shortbioPoint: false,
+    __typename: 'GivePoint' },
+   __typename: 'User' },
+ isLogged: true,
+ fcmToken: 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG' }
+2020-02-12 14:43:11.902 [info][tid:com.facebook.react.JavaScript] 메인.js 디드마운트
+2020-02-12 14:43:11.903 [info][tid:com.facebook.react.JavaScript] mainscreen 마운트!
+2020-02-12 14:43:11.903 [info][tid:com.facebook.react.JavaScript] 라우터 글로벌데이터 change 
+2020-02-12 14:43:11.925 [info][tid:com.facebook.react.JavaScript] '@user auth token = ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNDIxMmUzYjkyZWNkNmUzYzQwZWVjMCIsImlhdCI6MTU4MTQ4MTIwNn0.z0rxISSwMWETEZnV7_89wnAOJlaBeILqqMl1tfEVihk'
+2020-02-12 14:43:11.931204+0900 univel[9539:2395222] [react-native-permissions] ios.permission.LOCATION_ALWAYS permission checked: granted
+2020-02-12 14:43:11.931905+0900 univel[9539:2395222] [react-native-permissions] ios.permission.LOCATION_ALWAYS permission checked: granted
+2020-02-12 14:43:12.007 [info][tid:com.facebook.react.JavaScript] crew start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2020-02-12 14:43:12.007 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:12.007 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', false, false, undefined, false
+2020-02-12 14:43:12.012 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:12.012 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', true, true, undefined, false
+2020-02-12 14:43:12.012 [info][tid:com.facebook.react.JavaScript] 'called loading, data = ', true, true, undefined
+2020-02-12 14:43:12.012 [info][tid:com.facebook.react.JavaScript] 'in called and loading', true, true
+2020-02-12 14:43:12.023 [info][tid:com.facebook.react.JavaScript] '크루의 메인 언마운트!!', { main: 'find',
+ messageList: false,
+ location: '',
+ inviteRoomId: null,
+ inviteRoomGroup: null,
+ inviteSet: false,
+ crews: [],
+ settings: null,
+ userData: 
+  { _id: '5e4212e3b92ecd6e3c40eec0',
+   point: 20,
+   myOs: 'ios',
+   profilephoto: 
+   [ { key: 'photo/IMG_1196.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1196.PNG',
+     __typename: 's3Photo' } ],
+   groupphoto: 
+   [ { key: 'photo/IMG_1201.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1201.PNG',
+     __typename: 's3Photo' },
+    { key: 'photo/IMG_1199.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1199.PNG',
+     __typename: 's3Photo' } ],
+   loc: 
+   { type: 'Point',
+    coordinates: [ 126.94973963563429, 37.54636144969278 ],
+    __typename: 'Loc' },
+   phonenumber: '01010171017',
+   uid: 'NFAEQeNGrFMfNeqFKFA8jDfUk9E3',
+   placestr: null,
+   shortbio: null,
+   birthdate: '1995-06-01T00:00:00.000Z',
+   nickname: '하니',
+   school: '서울대학교 ・ 실용창작과',
+   oneWordTags: 
+   [ { name: '모두 싱글', active: false, __typename: 'Tag' },
+    { name: '재밌어요', active: false, __typename: 'Tag' },
+    { name: '활발해요', active: false, __typename: 'Tag' },
+    { name: '대화를 잘해요', active: false, __typename: 'Tag' },
+    { name: '이야기를 잘 들어줘요', active: false, __typename: 'Tag' },
+    { name: '솔직해요', active: false, __typename: 'Tag' },
+    { name: '예뻐요', active: false, __typename: 'Tag' },
+    { name: '잘 생겼어요', active: false, __typename: 'Tag' },
+    { name: '피부가 좋아요', active: false, __typename: 'Tag' },
+    { name: '웃음이 많아요', active: false, __typename: 'Tag' },
+    { name: '매너가 좋아요', active: false, __typename: 'Tag' },
+    { name: '담배 안펴요', active: false, __typename: 'Tag' },
+    { name: '술 안마셔요', active: false, __typename: 'Tag' },
+    { name: '패션센스', active: false, __typename: 'Tag' },
+    { name: '고기를 잘 구워요', active: false, __typename: 'Tag' } ],
+   likeTags: 
+   [ { name: '운동', active: false, __typename: 'Tag' },
+    { name: '노래 부르기', active: false, __typename: 'Tag' },
+    { name: '악기 연주', active: false, __typename: 'Tag' },
+    { name: '다같이 게임하기', active: false, __typename: 'Tag' },
+    { name: '감성 카페 찾기', active: false, __typename: 'Tag' },
+    { name: '카페에서 수다', active: false, __typename: 'Tag' },
+    { name: '쇼핑', active: false, __typename: 'Tag' },
+    { name: '영화 보기', active: false, __typename: 'Tag' },
+    { name: '드라마 보기', active: false, __typename: 'Tag' },
+    { name: '웹툰 보기', active: false, __typename: 'Tag' },
+    { name: '파티하기', active: false, __typename: 'Tag' },
+    { name: '드라이브', active: false, __typename: 'Tag' },
+    { name: '덕질', active: false, __typename: 'Tag' },
+    { name: '인스타 맛집탐방', active: false, __typename: 'Tag' },
+    { name: '독서', active: false, __typename: 'Tag' },
+    { name: '반려동물', active: false, __typename: 'Tag' },
+    { name: '공연관람', active: false, __typename: 'Tag' },
+    { name: '여행', active: false, __typename: 'Tag' },
+    { name: '한강에서 치맥', active: false, __typename: 'Tag' } ],
+   settings: 
+   { getHitchNotiOn: true,
+    HitchSuccessNotiOn: true,
+    threeRemainNotiOn: true,
+    talkRoomCreatedNotiOn: true,
+    getNewMessageNotiOn: true,
+    eventNotiOn: true,
+    __typename: 'Settings' },
+   givePoint: 
+   { firstPoint: true,
+    myPicturePoint: false,
+    crewPicturePoint: false,
+    placeStrPoint: false,
+    lastWent: '1581471343022',
+    shortbioPoint: false,
+    __typename: 'GivePoint' },
+   __typename: 'User' },
+ isLogged: true,
+ fcmToken: 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG' }
+2020-02-12 14:43:12.042 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:12.043 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', true, false, { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }, false
+2020-02-12 14:43:12.043 [info][tid:com.facebook.react.JavaScript] 'called loading, data = ', true, false, { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }
+2020-02-12 14:43:12.043 [info][tid:com.facebook.react.JavaScript] 'findcrew data = ', { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }
+2020-02-12 14:43:12.043 [info][tid:com.facebook.react.JavaScript] 'in 히치하이커 없음 called: ', true, ' loading: ', false, ' fetchEnd: ', false
+2020-02-12 14:43:12.054 [info][tid:com.facebook.react.JavaScript] '크루의 메인 언마운트!!', { main: 'find',
+ messageList: false,
+ location: '',
+ inviteRoomId: null,
+ inviteRoomGroup: null,
+ inviteSet: false,
+ crews: [],
+ settings: null,
+ userData: 
+  { _id: '5e4212e3b92ecd6e3c40eec0',
+   point: 20,
+   myOs: 'ios',
+   profilephoto: 
+   [ { key: 'photo/IMG_1196.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1196.PNG',
+     __typename: 's3Photo' } ],
+   groupphoto: 
+   [ { key: 'photo/IMG_1201.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1201.PNG',
+     __typename: 's3Photo' },
+    { key: 'photo/IMG_1199.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1199.PNG',
+     __typename: 's3Photo' } ],
+   loc: 
+   { type: 'Point',
+    coordinates: [ 126.94973963563429, 37.54636144969278 ],
+    __typename: 'Loc' },
+   phonenumber: '01010171017',
+   uid: 'NFAEQeNGrFMfNeqFKFA8jDfUk9E3',
+   placestr: null,
+   shortbio: null,
+   birthdate: '1995-06-01T00:00:00.000Z',
+   nickname: '하니',
+   school: '서울대학교 ・ 실용창작과',
+   oneWordTags: 
+   [ { name: '모두 싱글', active: false, __typename: 'Tag' },
+    { name: '재밌어요', active: false, __typename: 'Tag' },
+    { name: '활발해요', active: false, __typename: 'Tag' },
+    { name: '대화를 잘해요', active: false, __typename: 'Tag' },
+    { name: '이야기를 잘 들어줘요', active: false, __typename: 'Tag' },
+    { name: '솔직해요', active: false, __typename: 'Tag' },
+    { name: '예뻐요', active: false, __typename: 'Tag' },
+    { name: '잘 생겼어요', active: false, __typename: 'Tag' },
+    { name: '피부가 좋아요', active: false, __typename: 'Tag' },
+    { name: '웃음이 많아요', active: false, __typename: 'Tag' },
+    { name: '매너가 좋아요', active: false, __typename: 'Tag' },
+    { name: '담배 안펴요', active: false, __typename: 'Tag' },
+    { name: '술 안마셔요', active: false, __typename: 'Tag' },
+    { name: '패션센스', active: false, __typename: 'Tag' },
+    { name: '고기를 잘 구워요', active: false, __typename: 'Tag' } ],
+   likeTags: 
+   [ { name: '운동', active: false, __typename: 'Tag' },
+    { name: '노래 부르기', active: false, __typename: 'Tag' },
+    { name: '악기 연주', active: false, __typename: 'Tag' },
+    { name: '다같이 게임하기', active: false, __typename: 'Tag' },
+    { name: '감성 카페 찾기', active: false, __typename: 'Tag' },
+    { name: '카페에서 수다', active: false, __typename: 'Tag' },
+    { name: '쇼핑', active: false, __typename: 'Tag' },
+    { name: '영화 보기', active: false, __typename: 'Tag' },
+    { name: '드라마 보기', active: false, __typename: 'Tag' },
+    { name: '웹툰 보기', active: false, __typename: 'Tag' },
+    { name: '파티하기', active: false, __typename: 'Tag' },
+    { name: '드라이브', active: false, __typename: 'Tag' },
+    { name: '덕질', active: false, __typename: 'Tag' },
+    { name: '인스타 맛집탐방', active: false, __typename: 'Tag' },
+    { name: '독서', active: false, __typename: 'Tag' },
+    { name: '반려동물', active: false, __typename: 'Tag' },
+    { name: '공연관람', active: false, __typename: 'Tag' },
+    { name: '여행', active: false, __typename: 'Tag' },
+    { name: '한강에서 치맥', active: false, __typename: 'Tag' } ],
+   settings: 
+   { getHitchNotiOn: true,
+    HitchSuccessNotiOn: true,
+    threeRemainNotiOn: true,
+    talkRoomCreatedNotiOn: true,
+    getNewMessageNotiOn: true,
+    eventNotiOn: true,
+    __typename: 'Settings' },
+   givePoint: 
+   { firstPoint: true,
+    myPicturePoint: false,
+    crewPicturePoint: false,
+    placeStrPoint: false,
+    lastWent: '1581471343022',
+    shortbioPoint: false,
+    __typename: 'GivePoint' },
+   __typename: 'User' },
+ isLogged: true,
+ fcmToken: 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG' }
+2020-02-12 14:43:12.071 [info][tid:com.facebook.react.JavaScript] 'on completed data = ', { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }
+2020-02-12 14:43:12.074 [info][tid:com.facebook.react.JavaScript] crew start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2020-02-12 14:43:12.074 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:12.074 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', false, false, undefined, true
+2020-02-12 14:43:12.083 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:12.083 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', true, true, undefined, true
+2020-02-12 14:43:12.083 [info][tid:com.facebook.react.JavaScript] 'called loading, data = ', true, true, undefined
+2020-02-12 14:43:12.083 [info][tid:com.facebook.react.JavaScript] 'in called and loading', true, true
+2020-02-12 14:43:12.092 [info][tid:com.facebook.react.JavaScript] '크루의 메인 언마운트!!', { main: 'find',
+ messageList: false,
+ location: '',
+ inviteRoomId: null,
+ inviteRoomGroup: null,
+ inviteSet: false,
+ crews: [],
+ settings: null,
+ userData: 
+  { _id: '5e4212e3b92ecd6e3c40eec0',
+   point: 20,
+   myOs: 'ios',
+   profilephoto: 
+   [ { key: 'photo/IMG_1196.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1196.PNG',
+     __typename: 's3Photo' } ],
+   groupphoto: 
+   [ { key: 'photo/IMG_1201.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1201.PNG',
+     __typename: 's3Photo' },
+    { key: 'photo/IMG_1199.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1199.PNG',
+     __typename: 's3Photo' } ],
+   loc: 
+   { type: 'Point',
+    coordinates: [ 126.94973963563429, 37.54636144969278 ],
+    __typename: 'Loc' },
+   phonenumber: '01010171017',
+   uid: 'NFAEQeNGrFMfNeqFKFA8jDfUk9E3',
+   placestr: null,
+   shortbio: null,
+   birthdate: '1995-06-01T00:00:00.000Z',
+   nickname: '하니',
+   school: '서울대학교 ・ 실용창작과',
+   oneWordTags: 
+   [ { name: '모두 싱글', active: false, __typename: 'Tag' },
+    { name: '재밌어요', active: false, __typename: 'Tag' },
+    { name: '활발해요', active: false, __typename: 'Tag' },
+    { name: '대화를 잘해요', active: false, __typename: 'Tag' },
+    { name: '이야기를 잘 들어줘요', active: false, __typename: 'Tag' },
+    { name: '솔직해요', active: false, __typename: 'Tag' },
+    { name: '예뻐요', active: false, __typename: 'Tag' },
+    { name: '잘 생겼어요', active: false, __typename: 'Tag' },
+    { name: '피부가 좋아요', active: false, __typename: 'Tag' },
+    { name: '웃음이 많아요', active: false, __typename: 'Tag' },
+    { name: '매너가 좋아요', active: false, __typename: 'Tag' },
+    { name: '담배 안펴요', active: false, __typename: 'Tag' },
+    { name: '술 안마셔요', active: false, __typename: 'Tag' },
+    { name: '패션센스', active: false, __typename: 'Tag' },
+    { name: '고기를 잘 구워요', active: false, __typename: 'Tag' } ],
+   likeTags: 
+   [ { name: '운동', active: false, __typename: 'Tag' },
+    { name: '노래 부르기', active: false, __typename: 'Tag' },
+    { name: '악기 연주', active: false, __typename: 'Tag' },
+    { name: '다같이 게임하기', active: false, __typename: 'Tag' },
+    { name: '감성 카페 찾기', active: false, __typename: 'Tag' },
+    { name: '카페에서 수다', active: false, __typename: 'Tag' },
+    { name: '쇼핑', active: false, __typename: 'Tag' },
+    { name: '영화 보기', active: false, __typename: 'Tag' },
+    { name: '드라마 보기', active: false, __typename: 'Tag' },
+    { name: '웹툰 보기', active: false, __typename: 'Tag' },
+    { name: '파티하기', active: false, __typename: 'Tag' },
+    { name: '드라이브', active: false, __typename: 'Tag' },
+    { name: '덕질', active: false, __typename: 'Tag' },
+    { name: '인스타 맛집탐방', active: false, __typename: 'Tag' },
+    { name: '독서', active: false, __typename: 'Tag' },
+    { name: '반려동물', active: false, __typename: 'Tag' },
+    { name: '공연관람', active: false, __typename: 'Tag' },
+    { name: '여행', active: false, __typename: 'Tag' },
+    { name: '한강에서 치맥', active: false, __typename: 'Tag' } ],
+   settings: 
+   { getHitchNotiOn: true,
+    HitchSuccessNotiOn: true,
+    threeRemainNotiOn: true,
+    talkRoomCreatedNotiOn: true,
+    getNewMessageNotiOn: true,
+    eventNotiOn: true,
+    __typename: 'Settings' },
+   givePoint: 
+   { firstPoint: true,
+    myPicturePoint: false,
+    crewPicturePoint: false,
+    placeStrPoint: false,
+    lastWent: '1581471343022',
+    shortbioPoint: false,
+    __typename: 'GivePoint' },
+   __typename: 'User' },
+ isLogged: true,
+ fcmToken: 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG' }
+2020-02-12 14:43:12.101 [info][tid:com.facebook.react.JavaScript] '@user auth token = ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlNDIxMmUzYjkyZWNkNmUzYzQwZWVjMCIsImlhdCI6MTU4MTQ4MTIwNn0.z0rxISSwMWETEZnV7_89wnAOJlaBeILqqMl1tfEVihk'
+2020-02-12 14:43:12.217 [info][tid:com.facebook.react.JavaScript] 'man start!!!!!!!!!!!!!!!!!!!!!!!!!!!!!', []
+2020-02-12 14:43:12.218 [info][tid:com.facebook.react.JavaScript] 'else start called loading, data fetchEnd= ', true, false, { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }, true
+2020-02-12 14:43:12.218 [info][tid:com.facebook.react.JavaScript] 'called loading, data = ', true, false, { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }
+2020-02-12 14:43:12.218 [info][tid:com.facebook.react.JavaScript] 'findcrew data = ', { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }
+2020-02-12 14:43:12.218 [info][tid:com.facebook.react.JavaScript] 'in 히치하이커 없음 called: ', true, ' loading: ', false, ' fetchEnd: ', true
+2020-02-12 14:43:12.232 [info][tid:com.facebook.react.JavaScript] '크루의 메인 언마운트!!', { main: 'find',
+ messageList: false,
+ location: '',
+ inviteRoomId: null,
+ inviteRoomGroup: null,
+ inviteSet: false,
+ crews: [],
+ settings: null,
+ userData: 
+  { _id: '5e4212e3b92ecd6e3c40eec0',
+   point: 20,
+   myOs: 'ios',
+   profilephoto: 
+   [ { key: 'photo/IMG_1196.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1196.PNG',
+     __typename: 's3Photo' } ],
+   groupphoto: 
+   [ { key: 'photo/IMG_1201.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1201.PNG',
+     __typename: 's3Photo' },
+    { key: 'photo/IMG_1199.PNG',
+     url: 'https://s3.ap-northeast-2.amazonaws.com/univelstatic/photo%2FIMG_1199.PNG',
+     __typename: 's3Photo' } ],
+   loc: 
+   { type: 'Point',
+    coordinates: [ 126.94973963563429, 37.54636144969278 ],
+    __typename: 'Loc' },
+   phonenumber: '01010171017',
+   uid: 'NFAEQeNGrFMfNeqFKFA8jDfUk9E3',
+   placestr: null,
+   shortbio: null,
+   birthdate: '1995-06-01T00:00:00.000Z',
+   nickname: '하니',
+   school: '서울대학교 ・ 실용창작과',
+   oneWordTags: 
+   [ { name: '모두 싱글', active: false, __typename: 'Tag' },
+    { name: '재밌어요', active: false, __typename: 'Tag' },
+    { name: '활발해요', active: false, __typename: 'Tag' },
+    { name: '대화를 잘해요', active: false, __typename: 'Tag' },
+    { name: '이야기를 잘 들어줘요', active: false, __typename: 'Tag' },
+    { name: '솔직해요', active: false, __typename: 'Tag' },
+    { name: '예뻐요', active: false, __typename: 'Tag' },
+    { name: '잘 생겼어요', active: false, __typename: 'Tag' },
+    { name: '피부가 좋아요', active: false, __typename: 'Tag' },
+    { name: '웃음이 많아요', active: false, __typename: 'Tag' },
+    { name: '매너가 좋아요', active: false, __typename: 'Tag' },
+    { name: '담배 안펴요', active: false, __typename: 'Tag' },
+    { name: '술 안마셔요', active: false, __typename: 'Tag' },
+    { name: '패션센스', active: false, __typename: 'Tag' },
+    { name: '고기를 잘 구워요', active: false, __typename: 'Tag' } ],
+   likeTags: 
+   [ { name: '운동', active: false, __typename: 'Tag' },
+    { name: '노래 부르기', active: false, __typename: 'Tag' },
+    { name: '악기 연주', active: false, __typename: 'Tag' },
+    { name: '다같이 게임하기', active: false, __typename: 'Tag' },
+    { name: '감성 카페 찾기', active: false, __typename: 'Tag' },
+    { name: '카페에서 수다', active: false, __typename: 'Tag' },
+    { name: '쇼핑', active: false, __typename: 'Tag' },
+    { name: '영화 보기', active: false, __typename: 'Tag' },
+    { name: '드라마 보기', active: false, __typename: 'Tag' },
+    { name: '웹툰 보기', active: false, __typename: 'Tag' },
+    { name: '파티하기', active: false, __typename: 'Tag' },
+    { name: '드라이브', active: false, __typename: 'Tag' },
+    { name: '덕질', active: false, __typename: 'Tag' },
+    { name: '인스타 맛집탐방', active: false, __typename: 'Tag' },
+    { name: '독서', active: false, __typename: 'Tag' },
+    { name: '반려동물', active: false, __typename: 'Tag' },
+    { name: '공연관람', active: false, __typename: 'Tag' },
+    { name: '여행', active: false, __typename: 'Tag' },
+    { name: '한강에서 치맥', active: false, __typename: 'Tag' } ],
+   settings: 
+   { getHitchNotiOn: true,
+    HitchSuccessNotiOn: true,
+    threeRemainNotiOn: true,
+    talkRoomCreatedNotiOn: true,
+    getNewMessageNotiOn: true,
+    eventNotiOn: true,
+    __typename: 'Settings' },
+   givePoint: 
+   { firstPoint: true,
+    myPicturePoint: false,
+    crewPicturePoint: false,
+    placeStrPoint: false,
+    lastWent: '1581471343022',
+    shortbioPoint: false,
+    __typename: 'GivePoint' },
+   __typename: 'User' },
+ isLogged: true,
+ fcmToken: 'e7O_4tqQ-Fg:APA91bHt1Lw06992FTcXK8F2pz7tyvilnZ6chcObb6XHnYSDXBWsPRiDXMlrL4i-lX0cudWm3fX5Rd76PBzWkPRD4T9A1ooZUwkZhm75XDyoamY2aOTIH6cdW3WsKQPTFExITdYXGieG' }
+2020-02-12 14:43:12.233 [info][tid:com.facebook.react.JavaScript] 'on completed data = ', { FindCrew: 
+  { ok: false,
+   error: 'no more user around you',
+   searchedUser: null,
+   __typename: 'FindCrewResponse' } }
+2020-02-12 14:43:12.234289+0900 univel[9539:2395772] Task <0A201627-D386-47B1-B558-1AFA7613D2B0>.<15> HTTP load failed, 0/0 bytes (error code: -999 [1:89])
+2020-02-12 14:43:12.234780+0900 univel[9539:2395772] Connection 21: unable to determine interface type without an established connection
+2020-02-12 14:43:12.234958+0900 univel[9539:2395772] Connection 21: unable to determine fallback status without a connection
+2020-02-12 14:43:13.008 [warn][tid:com.facebook.react.JavaScript] Possible Unhandled Promise Rejection (id: 0):
+Error: Network Error
+createError@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:241011:26
+handleError@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:240913:27
+dispatchEvent@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:32469:31
+setReadyState@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:31553:33
+__didCompleteResponse@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:31380:29
+emit@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:7631:42
+__callFunction@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3382:49
+http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3095:31
+__guard@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3336:15
+callFunctionReturnFlushedQueue@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3094:21
+callFunctionReturnFlushedQueue@[native code]
+2020-02-12 14:43:13.474 [warn][tid:com.facebook.react.JavaScript] Possible Unhandled Promise Rejection (id: 1):
+Error: Network Error
+createError@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:241011:26
+handleError@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:240913:27
+dispatchEvent@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:32469:31
+setReadyState@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:31553:33
+__didCompleteResponse@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:31380:29
+emit@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:7631:42
+__callFunction@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3382:49
+http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3095:31
+__guard@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3336:15
+callFunctionReturnFlushedQueue@http://172.16.5.195:8081/index.bundle?platform=ios&dev=true&minify=false:3094:21
+callFunctionReturnFlushedQueue@[native code]
+2020-02-12 14:43:21.797109+0900 univel[9539:2395394] [] tcp_input [C17.1:3] flags=[R] seq=1711779069, ack=0, win=0 state=LAST_ACK rcv_nxt=1711779069, snd_una=1776511789
+2020-02-12 14:43:21.797552+0900 univel[9539:2395394] [] tcp_input [C17.1:3] flags=[R] seq=1711779069, ack=0, win=0 state=CLOSED rcv_nxt=1711779069, snd_una=1776511789
+2020-02-12 14:43:21.812637+0900 univel[9539:2395394] [] tcp_input [C17.1:3] flags=[R] seq=1711779069, ack=0, win=0 state=CLOSED rcv_nxt=1711779069, snd_una=1776511789
+2020-02-12 14:43:41.443742+0900 univel[9539:2395222] Could not signal service com.apple.WebKit.WebContent: 113: Could not find specified service
+2020-02-12 14:43:41.446387+0900 univel[9539:2395222] Could not signal service com.apple.WebKit.Networking: 113: Could not find specified service

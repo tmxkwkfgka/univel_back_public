@@ -1,0 +1,16 @@
+type SendEmailResponse {
+  ok: Boolean!
+  error: String,
+  
+}
+
+
+
+type Mutation {
+  SendEmail(
+      from: String!
+      to: String!
+      subject: String!
+      body: String!
+  ): SendEmailResponse!
+}

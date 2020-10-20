@@ -1,0 +1,14 @@
+type RechargePointResponse {
+  ok: Boolean!
+  error: String
+  currentPoint: Int
+
+}
+
+
+type Mutation {
+  RechargePoint(
+     point: Int!
+      
+  ): RechargePointResponse!
+}

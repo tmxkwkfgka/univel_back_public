@@ -1,0 +1,13 @@
+
+type AddTagResponse {
+  ok: Boolean!
+  error: String,
+
+}
+
+type Mutation {
+  AddTag(
+     tagKind: String!
+     inputTags: [String!]!
+  ): AddTagResponse!
+}

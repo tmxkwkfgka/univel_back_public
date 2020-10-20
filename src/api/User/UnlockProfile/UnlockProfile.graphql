@@ -1,0 +1,15 @@
+type UnlockProfileResponse {
+  ok: Boolean!
+  error: String
+  currentPoint: Int
+}
+
+type Mutation {
+  UnlockProfile(
+      targetId: String!
+      point: Int!
+    
+
+
+  ): UnlockProfileResponse!
+}

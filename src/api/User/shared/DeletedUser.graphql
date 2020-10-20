@@ -1,0 +1,78 @@
+type s3Photo{
+  key: String
+  url: String
+}
+type Tag {
+  name: String
+  active: Boolean
+  defaultTag: Boolean
+}
+type Match {
+  _id: ID
+  userid: String
+  createdAt: String
+}
+type Loc{
+  type: String
+  coordinates: [Float]
+}
+
+type BeLiked {
+  userId: User
+  lock: Boolean
+}
+type Settings {
+  getHitchNotiOn: Boolean
+  HitchSuccessNotiOn: Boolean
+  threeRemainNotiOn: Boolean
+  talkRoomCreatedNotiOn: Boolean
+  getNewMessageNotiOn: Boolean
+  eventNotiOn: Boolean
+}
+
+type GivePoint {
+  firstPoint: Boolean
+  myPicturePoint: Boolean
+  crewPicturePoint: Boolean
+  placeStrPoint: Boolean
+  shortbioPoint: Boolean
+  lastWent: String
+}
+
+scalar Date
+
+type DeletedUser {
+  _id: ID
+  point: Int
+  profilephoto: [s3Photo]
+  oneWordTags: [Tag]
+  likeTags: [Tag]
+  like: [String]
+  unlike: [String] 
+  beliked: [BeLiked] 
+  beunliked: [String]
+  groupphoto: [s3Photo]
+  phonenumber: String
+  uid: String
+  gender: Boolean
+  birthdate: Date
+  nickname: String
+  fcmToken: String
+  myOs: String
+  loc: Loc
+  locStr: String
+  currentRoomName: String
+ 
+  matches: [Match] 
+
+
+  school: String
+  shortbio: String
+  placestr: String
+ 
+  settings: Settings
+  givePoint: GivePoint
+ 
+  createdAt: String
+  updatedAt: String
+}

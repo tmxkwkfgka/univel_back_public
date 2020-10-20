@@ -1,0 +1,15 @@
+type TestSendFcmResponse {
+  ok: Boolean!
+  error: String
+
+}
+
+type Mutation {
+  TestSendFcm(
+      type: String!
+      title: String!
+      body: String!
+      screen: String
+
+  ): TestSendFcmResponse!
+}

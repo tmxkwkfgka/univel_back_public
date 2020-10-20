@@ -1,0 +1,14 @@
+type EditPhotoUrlResponse {
+  ok: Boolean!
+  error: String
+  
+}
+
+type Mutation {
+  EditPhotoUrl(
+   previousKey: String!
+   newKey: String!
+   newUrl: String!
+   kind: String!
+  ): EditPhotoUrlResponse!
+}

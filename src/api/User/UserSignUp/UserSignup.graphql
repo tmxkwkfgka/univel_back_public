@@ -1,0 +1,18 @@
+type UserSignUpResponse {
+  ok: Boolean!
+  error: String
+  token: String
+  user: User
+}
+
+type Mutation {
+  UserSignUp(
+    phonenumber: String!
+    nickname: String!
+    uid: String!
+    gender: Boolean!
+    point: Int!
+    birthdate: Date
+   
+  ): UserSignUpResponse!
+}

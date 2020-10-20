@@ -1,0 +1,17 @@
+type ClickMatchResponse {
+  ok: Boolean!
+  error: String
+  matchIds: [String]
+  nicknames: [String]
+  photos: [String]
+  roomKey: String
+  waitingAt: Date
+  remain: Int
+}
+
+type Mutation {
+  ClickMatch(
+   yourid: ID!
+   fromHitch: Boolean
+  ): ClickMatchResponse!
+}
